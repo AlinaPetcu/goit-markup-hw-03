@@ -6,16 +6,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio page</title>
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
-    <header class="top-line-bg">
-      <nav class="list">
+    <header class="topline-bar">
+      <nav class="list topline-container">
         <a href="index.html" class="logo link"
           >Web<span class="logo-header">Studio</span></a
         >
@@ -33,15 +41,15 @@
           </li>
         </ul>
       </nav>
-      <address class="topline-contact">
+      <address class="topline-address">
         <ul class="list">
           <li>
-            <a class="contacts link" href="mailto:info@devstudio.com"
+            <a class="address link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contacts link" href="tel:+110001111111"
+            <a class="address link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -53,26 +61,26 @@
       <!--Filters section-->
       <section>
         <h1 style="display: none">Invisible title</h1>
-        <ul class="list">
+        <ul class="list filters-container">
           <li>
-            <button type="button" class="all-button">All</button>
+            <button type="button" class="filters-button">All</button>
           </li>
           <li>
-            <button type="button" class="all-button">Web Site</button>
+            <button type="button" class="filters-button">Web Site</button>
           </li>
           <li>
-            <button type="button" class="all-button">App</button>
+            <button type="button" class="filters-button">App</button>
           </li>
           <li>
-            <button type="button" class="all-button">Design</button>
+            <button type="button" class="filters-button">Design</button>
           </li>
           <li>
-            <button type="button" class="all-button">Marketing</button>
+            <button type="button" class="filters-button">Marketing</button>
           </li>
         </ul>
         <!--Selectors-->
-        <ul class="list">
-          <li class="project-card-format link">
+        <ul class="list portfolio-container">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/bankingapp.jpg"
@@ -83,7 +91,7 @@
               <p class="portfolio-type">App</p>
             </a>
           </li>
-          <li class="project-card-format link">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/cashlesspayment.jpg"
@@ -94,7 +102,7 @@
               <p class="portfolio-type">Marketing</p>
             </a>
           </li>
-          <li class="project-card-format link">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/meditationapp.jpg"
@@ -105,7 +113,7 @@
               <p class="portfolio-type">App</p>
             </a>
           </li>
-          <li class="project-card-format link">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/taxiservice.jpg"
@@ -116,7 +124,7 @@
               <p class="portfolio-type">Marketing</p>
             </a>
           </li>
-          <li class="project-card-format link">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/screenillustrations.jpg"
@@ -127,7 +135,7 @@
               <p class="portfolio-type">Design</p>
             </a>
           </li>
-          <li class="project-card-format link">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/onlinecourses.jpg"
@@ -138,7 +146,7 @@
               <p class="portfolio-type">Marketing</p>
             </a>
           </li>
-          <li class="project-card-format link">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/instagramstories.jpg"
@@ -149,7 +157,7 @@
               <p class="portfolio-type">Design</p>
             </a>
           </li>
-          <li class="project-card-format link">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/onlinecourses.jpg"
@@ -160,7 +168,7 @@
               <p class="portfolio-type">Web Site</p>
             </a>
           </li>
-          <li class="project-card-format link">
+          <li class="grid-list link">
             <a class="link" href="">
               <img
                 src="./images/freshcoffee.jpg"
@@ -175,15 +183,10 @@
       </section>
     </main>
     <!--Footer-->
-    <footer class="footer-content">
+    <footer class="footer-container">
       <a href="./index.html" class="footer-logo logo link"
         >Web<span class="span">Studio</span></a
       >
-
-      <!--a href="./index.html" class="logo link"
-        >Web<span class="logo-footer">Studio</span></a
-      -->
-
       <p class="footer-description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

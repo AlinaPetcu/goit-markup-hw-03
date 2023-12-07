@@ -193,6 +193,32 @@ color: var(--ocean);
         flex-shrink: 0;
 }
 
+.feature-container{
+    width: 1440px;
+    height: 2592px;
+    display: inline-flex;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.wawd-container{
+    width: 1440px;
+    height: 2592px;
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+}
+
+.team-container{
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
 .card-team{
     background: var(--WHITE, #FFF);
         padding-bottom: 0px;

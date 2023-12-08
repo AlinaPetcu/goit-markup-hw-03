@@ -24,7 +24,6 @@ img{
 
  .list{
     list-style: none;
-    display: flex;
     }
 
 .link{
@@ -47,12 +46,16 @@ color: var(--OCEAN);
 /*Classes style*/
 
 .container{
-    display: flex;
-    justify-content: space-between;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -149,6 +152,7 @@ color: var(--ocean);
 .hero-section{
     background-color: var(--navy-blue);
     padding: 188px 0;
+
     
 }
 
@@ -235,7 +239,6 @@ padding: 120px 0;
 
 .wawd-list {
     display: flex;
-    flex-direction: column;
     gap: 24px;
 }
 .purpose-images{

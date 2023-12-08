@@ -312,10 +312,10 @@ padding: 120px 0;
    
 }                     
 .filters-button:hover,
-.filters-button:focus,{
+.filters-button:focus{
     color: var(--white, #FFF);
     background: var(--OCEAN, #404BBF);
-    border: 1px solid transparent
+    border: 1px solid transparent;
 
 }
 

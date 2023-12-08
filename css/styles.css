@@ -63,12 +63,6 @@ color: var(--OCEAN);
     align-items: center;
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .logo{
     color: var(--iris, #4D5AE5);
         font-family: Raleway,sans-serif;

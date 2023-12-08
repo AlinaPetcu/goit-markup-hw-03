@@ -24,6 +24,7 @@ img{
 
  .list{
     list-style: none;
+    display: flex;
     }
 
 .link{
@@ -47,7 +48,7 @@ color: var(--OCEAN);
 
 .container{
     display: flex;
-  justify-content: center;
+    justify-content: space-between;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -62,6 +63,7 @@ color: var(--OCEAN);
 
 .nav-list{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -131,7 +133,7 @@ color: var(--ocean);
     letter-spacing: 0.32px;
     display: flex;
     gap:40px;
-    margin-left: 332px;
+    
 }
 
 .address {
@@ -148,8 +150,8 @@ color: var(--ocean);
     background-color: var(--navy-blue);
     padding: 188px 0;
     
-    
 }
+
 .title-hero{
     color: var(--white, #FFF);
         text-align: center;
@@ -157,6 +159,7 @@ color: var(--ocean);
         line-height: 107.143%;
         letter-spacing: 1.12px;
         max-width: 496px;
+        
 }
 
 .button{
@@ -179,12 +182,12 @@ color: var(--ocean);
 .button:hover,
 .button:focus{
         background-color:  #404BBF;
-
 }
 
 .feature-section{
 padding: 120px 0;
 }
+
 .visually-hidden{
     display: none;
 }
@@ -217,6 +220,7 @@ padding: 120px 0;
 
 .wawd-section{
     padding-bottom: 120px;
+    display: flex;
 }
 .title-two{
     color: var(--navy-blue, #2E2F42);
@@ -231,6 +235,7 @@ padding: 120px 0;
 
 .wawd-list {
     display: flex;
+    flex-direction: column;
     gap: 24px;
 }
 .purpose-images{
@@ -259,9 +264,6 @@ padding: 120px 0;
 .card-detail{
     padding: 32px 0;
 }
-.team-member{
-    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-}
 
 .card-content{
         justify-content: center;
@@ -286,6 +288,7 @@ padding: 120px 0;
 .filter-section{
     padding-top: 96px;
     padding-bottom: 120px;
+
 }
 .filters-list{
     display: flex;
@@ -342,7 +345,7 @@ padding: 120px 0;
         font-weight: 500;
         line-height: 120%;
         letter-spacing: 0.02em;
-        margin-bottom: 8px
+        margin-bottom: 8px;
 }
 .portfolio-type{
     color: var(--slate);
@@ -354,11 +357,11 @@ padding: 120px 0;
 
 .footer {
     background-color: var(--navy-blue);
-    width: 1440px;
+    width: 1200px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 100px 0
+    padding: 100px 0;
 
 }
 

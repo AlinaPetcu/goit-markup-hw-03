@@ -46,6 +46,8 @@ color: var(--OCEAN);
 /*Classes style*/
 
 .container{
+    display: flex;
+  justify-content: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -102,6 +104,7 @@ color: var(--OCEAN);
         letter-spacing: 0.32px;
         display: flex;
         gap: 40px;
+        display: flex;
 
         
         

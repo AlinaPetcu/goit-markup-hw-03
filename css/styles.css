@@ -217,7 +217,7 @@ padding: 120px 0;
 }
 
 .li.feature-list-element{
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .feature-title{
     color: var(--navy-blue, #2E2F42);

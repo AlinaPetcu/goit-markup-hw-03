@@ -86,7 +86,7 @@ color: var(--OCEAN);
         text-transform: uppercase;
         text-decoration: none;
         background: var(--WHITE, #FFF);
-        margin-right: 76px
+        margin-right: 76px;
         
 }
 
@@ -197,8 +197,12 @@ color: var(--ocean);
 padding: 120px 0;
 }
 
-.visually-hidden{
-    @include visually-hidden;
+.visually-hidden {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 

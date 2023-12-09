@@ -198,7 +198,7 @@ padding: 120px 0;
 }
 
 .visually-hidden{
-    display: none;
+    @include visually-hidden;
 }
 
 

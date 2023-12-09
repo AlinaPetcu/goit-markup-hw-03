@@ -220,6 +220,8 @@ padding: 120px 0;
 }
 
 .li.feature-list-element{
+    width: 100%;
+    min-width: 264px;
     width: calc((100% - 3*24px) / 4);
 }
 .feature-title{
